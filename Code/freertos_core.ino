@@ -98,7 +98,7 @@ void TaskSensors(void *parameter) {
     Serial.printf("[SENSORS] Temp: %.2f°C, Humidity: %.2f%%, Soil: %.2f%%, Gas: %d, Flame: %d\n",
                   temp, humid, soilMoisture, gasa, fire);
 
-    vTaskDelay(pdMS_TO_TICKS(2000));  // every 2 seconds
+    vTaskDelay(pdMS_TO_TICKS(2000));  
   }
 }
 
@@ -129,7 +129,7 @@ void TaskAlertLogic(void *parameter) {
       fireGasAlertSent = false;
     }
 
-    vTaskDelay(pdMS_TO_TICKS(1000));  // every 1 second
+    vTaskDelay(pdMS_TO_TICKS(1000));  
   }
 }
 
@@ -137,23 +137,23 @@ void TaskEmail(void *parameter) {
   while (1) {
     if (triggerSoilTempEmail) {
       triggerSoilTempEmail = false;
-      String msg = "⚠️ Soil Moisture or Temperature Issue:\n";
-      msg += "🌡️ Temp: " + String(temp) + " °C\n";
-      msg += "💧 Soil Moisture: " + String(soilMoisture) + "%\n";
+      String msg = " Soil Moisture or Temperature Issue:\n";
+      msg += " Temp: " + String(temp) + " °C\n";
+      msg += " Soil Moisture: " + String(soilMoisture) + "%\n";
       sendAlertEmail("ALERT: Soil/Temperature", msg);
     }
 
     if (triggerFireGasEmail) {
       triggerFireGasEmail = false;
-      String msg = "🔥 FIRE or GAS Detected!\n";
+      String msg = " FIRE or GAS Detected!\n";
       if (fire == FIRE_DETECTED)
-        msg += "🔥 Flame Detected!\n";
+        msg += " Flame Detected!\n";
       if (gasa > GAS_DETECTED)
-        msg += "💨 Gas Level: " + String(gasa) + "\n";
+        msg += " Gas Level: " + String(gasa) + "\n";
       sendAlertEmail("ALERT: Fire/Gas", msg);
     }
 
-    vTaskDelay(pdMS_TO_TICKS(5000));  // check every 5s
+    vTaskDelay(pdMS_TO_TICKS(5000));  
   }
 }
 
@@ -170,7 +170,7 @@ void TaskThingSpeak(void *parameter) {
       Serial.println("[ThingSpeak] Failed, code: " + String(x));
     }
 
-    vTaskDelay(pdMS_TO_TICKS(3000));  // every 15s
+    vTaskDelay(pdMS_TO_TICKS(3000)); 
   }
 }
 
@@ -205,5 +205,5 @@ void setup() {
 }
 
 void loop() {
-  // Nothing here; all logic handled by tasks
+ 
 }
