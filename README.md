@@ -1,160 +1,91 @@
-# Forest-Fire-Detection-and-Alert-system
+# Forest Fire Detection and Alert System
 
-**Methodology for implementation**
+## Methodology for Implementation
 
-The methodology for the implementation of this IoT system is showcased as a clear and detailed flow chart below.
+The methodology for the implementation of this IoT system is showcased as a clear and detailed flowchart below.
 
-FOREST
+### Flowchart
 
-Alert
+![Flowchart 1](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.001.png)
+![Flowchart 2](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.002.png)
+![Flowchart 3](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.003.png)
+![Flowchart 4](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.004.png)
+![Flowchart 5](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.005.png)
+![Flowchart 6](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.006.png)
+![Flowchart 7](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.007.png)
+![Flowchart 8](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.008.png)
+![Flowchart 9](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.009.png)
+![Flowchart 10](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.010.png)
+![Flowchart 11](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.011.png)
+![Flowchart 12](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.012.png)
+![Flowchart 13](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.013.png)
+![Flowchart 14](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.014.png)
+![Flowchart 15](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.015.png)
+![Flowchart 16](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.016.png)
+![Flowchart 17](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.017.png)
+![Flowchart 18](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.018.png)
+![Flowchart 19](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.019.png)
+![Flowchart 20](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.020.png)
+![Flowchart 21](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.021.png)
+![Flowchart 22](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.022.png)
+![Flowchart 23](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.023.png)
+![Flowchart 24](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.024.png)
+![Flowchart 25](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.025.png)
+![Flowchart 26](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.026.png)
+![Flowchart 27](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.027.png)
 
+---
 
+## Hardware Prototype Layout
 
+![Hardware Layout 1](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.028.jpeg)
+![Hardware Layout 2](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.029.jpeg)
+![Hardware Layout 3](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.030.jpeg)
 
+---
 
+## Schematic Diagram
 
+![Schematic Diagram](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.031.jpeg)
 
+---
 
+## Showcasing Results by Stages
 
+### 1. Sensor Readings on Serial Monitor
 
+![Serial Monitor Output](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.032.jpeg)
 
+### 2. Data Display on ThingSpeak Cloud Platform
 
+![ThingSpeak Cloud Data](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.033.jpeg)
 
+### 3. LED Alert for Low Soil Moisture Level
 
+![LED Alert](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.034.jpeg)
 
+When the soil moisture sensor detects low moisture levels, the LED turns ON as an alert.
 
+![Low Moisture Alert](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.035.jpeg)
 
+### 4. Email Alert When Fire or Gas is Detected
 
+![Email Alert](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.036.jpeg)
 
+When soil moisture drops too low or temperature becomes too high, an automatic email alert is sent.
 
-![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.001.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.002.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.003.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.004.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.005.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.006.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.007.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.008.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.009.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.010.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.011.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.012.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.013.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.014.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.015.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.016.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.017.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.018.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.019.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.020.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.021.png)
+![Email Alert Confirmation](images/Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.037.jpeg)
 
+---
 
+## Final Conclusion
 
+The mini project on detecting forest fires provided practical learning in real-time environmental monitoring and disaster management using IoT technology. It demonstrated how small-scale innovations, when thoughtfully designed, can make a substantial impact in solving global issues like environmental protection and public safety.
 
+This project also highlighted the importance of interdisciplinary solutions, combining electronics, computer science, and environmental science to address real-world problems.
 
+---
 
+## Result
 
-
-
-![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.022.png)
-
-
-
-
-
-
-
-
-
-![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.023.png)
-
-
-
-
-
-
-
-
-
-
-
-
-![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.024.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.025.png)
-
-
-
-
-
-
-![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.026.png)![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.027.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ` `**<a name="_hlk202174354"></a>HARDWARE PROTOTYPE LAYOUT**
-# ![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.028.jpeg)
-
-
-`	`![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.029.jpeg)
-
-
-
-![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.030.jpeg)
-2
-
-# <a name="acknowledgements"></a><a name="_bookmark1"></a>**SCHEMATIC DIAGRAM**
-#
-# ![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.031.jpeg)
-
-
-## <a name="abstract"></a><a name="_bookmark2"></a><a name="pfc_topoligies_and_its_working_methodolo"></a><a name="_bookmark10"></a>**SHOWCASING RESULTS BY STAGES**
-##
-1. Sensors sensing the respective data and being displayed in the serial monitor:
-
-![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.032.jpeg)
-##
-##
-1. ## `  `The data being displayed in the Thingspeak cloud platform:
-##
-## ![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.033.jpeg)
-##
-##
-
-1. ` `LED blinks when there is a drop in soil moisture level:
-
-   ![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.034.jpeg)
-
-
-
-The soil moisture sensor reads the soil’s moisture, and once the soil moisture goes below a certain level, the LED turns ON as shown above.
-
-
-`      `![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.035.jpeg)
-
-## **     
-##
-##
-##
-##
-##
-1. `  `When there is a fire or gas detected, an email is sent
-
-![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.036.jpeg)
-
-1. <a name="passive_and_active_techniques"></a><a name="_bookmark11"></a><a name="passive_power_factor_correction"></a><a name="_bookmark15"></a>When soil moisture drops and becomes too low or the temperature is too high, an email alert is<a name="active_power_factor_correction"></a><a name="_bookmark16"></a> sent
-
-![](Aspose.Words.464cc0f0-6be2-4bdc-b54b-44be91b89b6e.037.jpeg)
-
-` `**Final Conclusions:**
-
-Overall, the mini project of detecting a forest fire served not just its initial purpose but also to create a substantive experience in translating theoretical concepts to applied life problems. The exposure-based learning made through the direct hands-on exposure was real-time observations of environmental monitoring technology and the utilisation of innovation in disaster management. Learning developed during conceptualising, constructing, and testing the system has been revealing and empowering.
-
-The project is an exhibition of the strength of small-scale innovations, if well thought out, to create a monumental impact in addressing immediate global problems such as environmental protection and public security. It is also an exhibition of the strength of multidisciplinary solutions, where ideas of electronics, computer science, and environmental science come together to craft effective solutions.
-
-
-
-
-
-
-
-
-
-
-## **RESULT:**
-## Therefore, the IoT-enabled fire Detection and the alert system have been successfully designed and tested, as we are using FREERTOS (Real Time Operating System) based code <a name="interleaved_boost_power_factor_correctio"></a><a name="_bookmark18"></a><a name="matlab_simulation_and_results"></a><a name="_bookmark20"></a><a name="circuit_parameters_and_calculated_values"></a><a name="_bookmark21"></a><a name="matlab_code_and_simulation_"></a><a name="_bookmark23"></a><a name="different_connection_types"></a><a name="_bookmark28"></a><a name="fft_analysis"></a><a name="_bookmark30"></a>in order to make the system respond quickly to deal with the real-time scenarios efficiently.
-
-
-
+The IoT-enabled Forest Fire Detection and Alert System has been successfully designed and tested using FreeRTOS (Real-Time Operating System) based code, ensuring rapid system response to real-time scenarios efficiently.
