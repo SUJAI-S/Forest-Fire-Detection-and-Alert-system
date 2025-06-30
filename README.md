@@ -1,1 +1,1 @@
-# Forest-Fire-Detection-and-Alert-systemt
+# Forest-Fire-Detection-and-Alert-system
